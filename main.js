@@ -1,6 +1,10 @@
 var roleHarvester = require('role.harvester');
 var roleUpgrader = require('role.upgrader');
 var roleBuilder = require('role.builder');
+var mount = require('mount');
+
+//挂载扩展
+mount()
 
 module.exports.loop = function () {
 
